@@ -10,12 +10,13 @@ return {
   -- Colorscheme
   { "doums/darcula", name = "darcula" },
   { "catppuccin/nvim", name = "catppuccin" },
+  { "rebelot/kanagawa.nvim", name = "kanagawa" },
 
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "darcula",
+      colorscheme = "kanagawa",
     },
   },
 
